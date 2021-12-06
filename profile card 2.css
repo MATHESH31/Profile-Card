@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E0C097;
+	font-family: Montserrat, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+h3 {
+	margin: 10px 0;
+}
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+.card-container {
+	background-color: #2D2424;
+	border-radius: 23px;
+	box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.75);
+	color: #ffffff;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+}
+.card-container .pro {
+	color: #ffffff;
+	background-color: #F90716;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+.card-container .round {
+	border: 1px solid #FFBC97;
+	border-radius: 50%;
+	padding: 7px;
+}
+.card-container .button {
+	margin-bottom: 3px;
+}
+button {
+	width: 130px;
+	height: 35px;
+	text-align: center;
+	align-content: center;
+}
+button.linkedin {
+	background-color: #ffffff;
+	border: 1px solid #0e76a8;
+	border-radius: 5px;
+	position: relative;
+	color: #0e76a8;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	font-size: 14px;
+	padding: 10px 25px;
+}
+button img {
+	width: 13px;
+	height: 13px;
+}
+button.linkedin a {
+	color: #0e76a8;
+	align-items: center;
+	text-decoration: none;
+}
+button:hover {
+	background-color: #CDF0EA;
+}
+button.github {
+	background-color: #ffffff;
+	border: 1px solid #171515;
+	border-radius: 5px;
+	margin-left: 10px;
+	position: relative;
+	color: black;
+	font-family: monospace;
+	font-weight: 500;
+	text-align: justify;
+	font-size: 14px;
+	padding: 10px 25px;
+}
+button img{
+	width: 13px;
+	height: 13px;
+
+}
+button.github a {
+	color: black;
+	text-decoration: none;
+}
+button:hover {
+	background-color: #D8D3CD;
+}
+button.instagram  {
+	background-color: #ffffff;
+	border: 1px solid rgb(138, 58, 185);
+	border-radius: 5px;
+	position: relative;
+	color: #bc2a8d; 
+	font-family: sans-serif;
+	font-weight: 500;
+	text-align: justify;
+	font-size: 13px;
+	padding: 10px 25px;
+}
+button img {
+	width: 13px;
+	height: 13px;
+}
+button.instagram a {
+	color: #bc2a8d;
+	text-decoration: none;
+}
+button:hover {
+	background-color: #FFDEDE;
+}
+.skills {
+	background-color: #5C3D2E;
+	border-radius: 23px;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.skills ul {
+	list-style-type: square;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #FFBC97;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
